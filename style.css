@@ -1,0 +1,502 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    border-top:2px solid #023a21 ;
+    border-bottom: 2px solid #023a21;
+    padding: 0;
+    margin: 5px 5px;
+    overflow: hidden;
+
+}
+
+
+.left-nav .logo {
+    margin: 0 25px 7px 25px;
+    padding: 3px 3px 0 3px;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-bottom: 3px solid gold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.right-nav ul {
+    padding: 3px;
+    margin: 0;
+    display: flex;
+    gap: 69px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.right-nav li a {
+    padding: 3px;
+    text-decoration: none;
+    font-size: 1.3em;
+    display: inline;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.185);
+}
+
+.right-nav a:hover {
+    color: gold;
+
+}
+
+.right-nav a:active {
+    opacity: .5;
+}
+
+
+.intro-top-line {
+    margin: 0 50px;
+    border: 3px groove gold;
+}
+
+
+
+.intro {
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.left-heading {
+    margin: 35px;
+    border: 3px transparent;
+    box-shadow: 5px 5px 5px 3px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 1200px;
+}
+
+.heading {
+    padding: 5px 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+}
+
+.content {
+    padding: 5px 35px;
+    font-family: PT Sans;
+    line-height: 28px;
+    font-size: 1.2em;
+}
+
+.content button {
+    font-size: 1.1em;
+    padding: 5px 25px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: Roboto mono;
+    margin-top: 15px;
+    background-color:#023a21;
+    color: gold;
+    font-weight: bold;
+    box-shadow: 5px 5px 3px rgba(128, 128, 128, 0.308);
+    transition: background-color .4s, color .4s;
+}
+
+.content button:hover {
+    background-color: gold;
+    color: #023a21;
+}
+
+.content button:active {
+    opacity: .5;
+}
+
+.right-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px transparent;
+    box-shadow: 5px 5px 5px 3px gray;
+    width: 400px;
+    margin: 35px;
+    margin-right: 50px;
+   
+}
+
+.right-heading img {
+    height: auto;
+    max-width: 100%;
+    border: 3px double black;
+    box-shadow: 3px 3px 3px  rgba(128, 128, 128, 0.322);
+}
+
+.intro-bot-line{
+    border: 3px groove gold;
+    margin: 0 50px;
+}
+
+
+
+.main-project-top-left-line {
+    margin-left: 1350px;
+    border: 3px groove gold;
+}
+
+.main-project-top-right-line {
+    margin-right: 1350px;
+    border: 3px groove gold;
+   
+}
+
+
+.main-project {
+    margin: 10;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+
+.main-project-heading {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 2px rgba(128, 128, 128, 0.288);
+    margin: 0 0 15px 0;
+    font-size: 1.3em;
+
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    border: 1px solid black;
+    height: 400px;
+    margin: 5px;
+}
+
+.project-list div {
+    flex-basis: 250px;
+    border: 1px solid black;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+
+.main-about-bot-left-line{
+    margin-left: 1350px;
+    border: 3px groove gold;
+}
+
+.main-about-bot-right-line{
+    margin-right: 1350px;
+    border: 3px groove gold;
+}
+
+
+
+.main-about-top-line {
+    margin: 0 50px;
+    border: 3px groove gold;
+}
+
+
+.main-about {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: none;
+    height: 800px;
+
+}
+
+.about-myself-heading {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 2px rgba(128, 128, 128, 0.288);
+    margin: 20px 0 ;
+    font-size: 1.2em;
+}
+
+.about-myself {
+    display: flex;
+    flex-direction: column;
+    border: 3px transparent; 
+    box-shadow: 5px 5px 5px 3px gray;
+    margin: 25px 10px 130px 120px;
+}
+
+.about-content-text {
+    padding: 85px;
+    flex-basis: 300px;
+    font-size: 1.2em;
+    word-spacing: 2px;
+    line-height: 35px;
+    font-family: PT Sans;
+}
+
+.skill-set {
+    margin: 0;
+    padding: 0;
+}
+
+.skill-header {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 2px rgba(128, 128, 128, 0.288);
+    margin: 20px 0 ;
+    font-size: 1.2em;
+}
+
+.skill-logo-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill-logo-container img {
+    height: 190px;
+    width: 210px;
+    opacity: .7;
+}
+
+
+.profile {
+    flex-basis: 300px;
+    padding: 25px;
+    border: 1px solid black;
+    margin: 30px 150px 130px 0;
+    border: 3px transparent; 
+    box-shadow: 5px 5px 5px 3px gray;
+}
+
+
+.profile img {
+    border: 2px double black;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.main-about-bot-line {
+    margin: 0 50px;
+    border: 3px groove gold;
+}
+
+.main-contact-top-right-line {
+    margin-right: 1350px;
+    border: 3px groove gold;
+}
+
+
+.main-contact-top-left-line {
+    margin-left: 1350px;
+    border: 3px groove gold;
+}
+
+.main-contact {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-heading {
+    
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 3px 3px 2px rgba(128, 128, 128, 0.288);
+    margin: 0 0 15px 0;
+    font-size: 1.3em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+    height: 700px;
+    margin: 25px;
+}
+
+.contact-fillup {
+    margin: 55px;
+    padding: 15px;
+    flex:3;
+    background-image: url(image/bg-form.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px transparent ;
+    box-shadow: -5px 5px 3px black;
+   
+ 
+}
+
+.contact-fillup  form {
+    padding: 100px 20px 20px 130px ;
+}
+
+input[type]  {
+    width: 30%;
+    border: none;
+    padding: 8px 12px;
+    border-bottom: 2px solid black;
+    background-color: white;
+    border-radius: 10px 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
+    transition: background-color .35s, color .35s;
+} 
+
+
+input[type="tel"] {
+    width: 22%;
+}
+
+
+input[type]::placeholder, textarea[cols]::placeholder {
+    color: gray; /* Placeholder text color when hovering */
+}
+
+input[type]:hover::placeholder, textarea[cols]:hover::placeholder {
+    color: white; /* Placeholder color on hover */
+}
+
+
+input[type]:hover {
+background-color: #0078A6;
+color:white;
+
+}
+
+
+
+textarea[cols] {
+    box-sizing: border-box;
+    border: none;
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 10px 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
+    transition: background-color .35s, color .35s;
+
+}
+textarea[cols]:hover {
+    background-color: #0078A6;
+    color:white;   
+}
+
+.contact-form label {
+    font-family: rubik;
+    font-size: 0.9em;
+    color:  #f4fdff;
+}
+
+input[type="submit"] {
+    width: 25%;
+    border: none;
+    padding: 8px 12px;
+    border-bottom: 2px solid black;
+    background-color: white;
+    border-radius: 10px 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
+    transition: background-color .35s, color .35s;
+    margin-left: 490px;
+} 
+
+
+.contact-information {
+    margin: 55px;
+    padding: 15px;
+    flex:1;
+
+    border: 1px solid black;
+    background-image: url(image/bg-info.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px transparent ;
+    box-shadow: -5px 5px 3px black;
+}
+
+.contact-information-heading, .contact-fillup-heading {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.4em;
+    padding: 8px;
+    font-family: Roboto mono;
+    text-shadow: 3px 3px 3px rgba(14, 3, 3, 0.295);
+    
+}
+
+ div .email, .phone, .location {
+    font-size: 1.1em;
+    padding: 5px 10px 5px 25px;
+    margin-top: 40px;
+    margin-left: 5px;
+}
+
+.social-media {
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 55px;
+
+}
+
+
+
+.social-media a > ion-icon{
+    color:#011E11;
+    font-size: 25px;
+}
+
+.social-media a:hover > ion-icon {
+    color: white;
+    font-size: 30px ;
+  }
+
+
+.main-contact-bot-right-line {
+    margin-right: 1350px;
+    border: 3px groove gold;
+}
+
+.main-contact-bot-left-line {
+    margin-left: 1350px;
+    border: 3px groove gold;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.copyright {
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
