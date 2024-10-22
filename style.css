@@ -8,22 +8,17 @@
 
 .nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
     border-top:2px solid #023a21 ;
     border-bottom: 2px solid #023a21;
-    padding: 0;
-    margin: 5px 5px;
+    margin: 5px;
+    padding: 12px;
     overflow: hidden;
-
 }
 
 
-.left-nav .logo {
-    margin: 0 25px 7px 25px;
-    padding: 3px 3px 0 3px;
+.logo {
     font-size: 1.3em;
     font-weight: bold;
     border-bottom: 3px solid gold;
@@ -31,60 +26,51 @@
 }
 
 
-.right-nav ul {
-    padding: 3px;
-    margin: 0;
+.list-links ul {
     display: flex;
-    gap: 69px;
+    gap: 70px;
     list-style-type: none;
     overflow: hidden;
 }
 
-.right-nav li a {
-    padding: 3px;
+.list-links li > a {
     text-decoration: none;
     font-size: 1.3em;
-    display: inline;
     font-weight: bold;
-    text-align: left;
-    text-decoration: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
-    text-shadow: 3px 3px 3px rgba(128, 128, 128, 0.185);
+    cursor: pointer;
 }
 
-.right-nav a:hover {
+.list-links a:hover {
     color: gold;
-
 }
 
-.right-nav a:active {
+.list-links a:active {
     opacity: .5;
 }
 
-
 .intro-top-line {
-    margin: 0 50px;
+    margin: 30px 50px;
     border: 3px groove gold;
 }
-
-
 
 .intro {
     border: none;
     display: flex;
     justify-content: space-around;
-    height: 500px;
+    min-height: 500px;
+    margin: 50px 0;
+    padding: 50px;
+    gap: 32px;
 }
 
 .left-heading {
-    margin: 35px;
-    border: 3px transparent;
+    flex-grow: 1;
     box-shadow: 5px 5px 5px 3px gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-basis: 1200px;
 }
 
 .heading {
@@ -124,14 +110,15 @@
 }
 
 .right-heading {
+    flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 3px transparent;
     box-shadow: 5px 5px 5px 3px gray;
     width: 400px;
-    margin: 35px;
-    margin-right: 50px;
+
+
    
 }
 
@@ -142,60 +129,55 @@
     box-shadow: 3px 3px 3px  rgba(128, 128, 128, 0.322);
 }
 
-.intro-bot-line{
+.line{
     border: 3px groove gold;
     margin: 0 50px;
 }
-
-
-
-.main-project-top-left-line {
-    margin-left: 1350px;
-    border: 3px groove gold;
+.two-separate-line  {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
 }
 
-.main-project-top-right-line {
-    margin-right: 1350px;
+.two-separate-line hr {
     border: 3px groove gold;
-   
-}
+    width: 300px;
 
+}
 
 .main-project {
-    margin: 10;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    height: 500px;
+    min-height: 500px;
+    margin-bottom: 50px;
 }
-
 
 .main-project-heading {
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 4px;
     text-shadow: 3px 3px 2px rgba(128, 128, 128, 0.288);
-    margin: 0 0 15px 0;
+    margin: 30px;
     font-size: 1.3em;
-
 }
 
 .project-list {
     display: flex;
     justify-content: space-around;
     align-items: stretch;
-    border: 1px solid black;
-    height: 400px;
+    min-height: 400px;
     margin: 5px;
 }
 
 .project-list div {
     flex-basis: 250px;
-    border: 1px solid black;
-    padding: 15px;
+    border: 5px groove gold;
+    padding: 5px 5px 0 5px;
     flex-wrap: wrap;
 }
 
+.project-list img {
+    height: 385px;
+    width: 250px;
+}
 
 .main-about-bot-left-line{
     margin-left: 1350px;
@@ -268,12 +250,13 @@
 
 .skill-logo-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .skill-logo-container img {
-    height: 190px;
-    width: 210px;
+    height: auto;
+    width: 120px;
     opacity: .7;
 }
 
@@ -282,7 +265,7 @@
     flex-basis: 300px;
     padding: 25px;
     border: 1px solid black;
-    margin: 30px 150px 130px 0;
+    margin: 25px 150px 130px 0;
     border: 3px transparent; 
     box-shadow: 5px 5px 5px 3px gray;
 }
@@ -297,25 +280,9 @@
 }
 
 
-.main-about-bot-line {
-    margin: 0 50px;
-    border: 3px groove gold;
-}
-
-.main-contact-top-right-line {
-    margin-right: 1350px;
-    border: 3px groove gold;
-}
-
-
-.main-contact-top-left-line {
-    margin-left: 1350px;
-    border: 3px groove gold;
-}
-
 .main-contact {
-    margin: 0;
-    padding: 0;
+    margin-top: 30px;
+
 }
 
 .contact-heading {
@@ -330,28 +297,28 @@
 
 .contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: row wrap;
     justify-content: space-around;
     gap: 15px;
-    height: 700px;
-    margin: 25px;
+    max-height: 500px;
+    margin: 50px;
 }
 
 .contact-fillup {
-    margin: 55px;
-    padding: 15px;
-    flex:3;
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(image/bg-form.png);
     background-repeat: no-repeat;
     background-size: cover;
     border: 5px transparent ;
     box-shadow: -5px 5px 3px black;
-   
- 
 }
 
 .contact-fillup  form {
-    padding: 100px 20px 20px 130px ;
+    padding: 40px;
 }
 
 input[type]  {
@@ -423,10 +390,9 @@ input[type="submit"] {
 
 
 .contact-information {
-    margin: 55px;
-    padding: 15px;
-    flex:1;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     border: 1px solid black;
     background-image: url(image/bg-info.png);
     background-position: center;
@@ -437,7 +403,6 @@ input[type="submit"] {
 }
 
 .contact-information-heading, .contact-fillup-heading {
-    margin-top: 10px;
     text-align: center;
     font-size: 1.4em;
     padding: 8px;
@@ -446,7 +411,7 @@ input[type="submit"] {
     
 }
 
- div .email, .phone, .location {
+ .email,  .phone,  .location {
     font-size: 1.1em;
     padding: 5px 10px 5px 25px;
     margin-top: 40px;
@@ -459,10 +424,7 @@ input[type="submit"] {
     justify-content: center;
     align-items: flex-end;
     gap: 55px;
-
 }
-
-
 
 .social-media a > ion-icon{
     color:#011E11;
