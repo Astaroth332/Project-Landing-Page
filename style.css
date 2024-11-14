@@ -5,7 +5,7 @@
     
 }
 
-
+/* Navigation section*/
 .nav {
     display: flex;
     justify-content: space-between;
@@ -49,11 +49,9 @@
 .list-links a:active {
     opacity: .5;
 }
+/* End of Navigation*/
 
-.intro-top-line {
-    margin: 30px 50px;
-    border: 3px groove gold;
-}
+/* Introduction section */
 
 .intro {
     border: none;
@@ -128,6 +126,9 @@
     border: 3px double black;
     box-shadow: 3px 3px 3px  rgba(128, 128, 128, 0.322);
 }
+/* End of Introduction*/
+
+/* Horizontal Line style*/
 
 .line{
     border: 3px groove gold;
@@ -144,6 +145,8 @@
     width: 300px;
 
 }
+
+/* List of projects section */
 
 .main-project {
     min-height: 500px;
@@ -179,23 +182,7 @@
     width: 250px;
 }
 
-.main-about-bot-left-line{
-    margin-left: 1350px;
-    border: 3px groove gold;
-}
-
-.main-about-bot-right-line{
-    margin-right: 1350px;
-    border: 3px groove gold;
-}
-
-
-
-.main-about-top-line {
-    margin: 0 50px;
-    border: 3px groove gold;
-}
-
+/*About myself section*/
 
 .main-about {
     margin: 0;
@@ -279,6 +266,7 @@
     max-height: 100%;
 }
 
+/* Contact Section*/
 
 .main-contact {
     margin-top: 30px;
@@ -446,6 +434,8 @@ input[type="submit"] {
     margin-left: 1350px;
     border: 3px groove gold;
 }
+
+/* Footer section*/
 
 .footer {
     margin: 0;
